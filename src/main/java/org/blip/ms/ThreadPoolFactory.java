@@ -4,6 +4,11 @@ import java.util.UUID;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
+/**
+ * Generic builder for common thread pools and common patterns for building
+ * thread pools with proper rejection and thread naming conventions and reasonable
+ * defaults.
+ */
 public class ThreadPoolFactory {
     private int coreSize = Runtime.getRuntime().availableProcessors() * 4;
     private int poolSize = 1000;

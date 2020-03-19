@@ -11,7 +11,7 @@ import java.util.List;
 import static org.awaitility.Awaitility.*;
 import static org.fest.assertions.api.Assertions.*;
 
-public class $Test {
+public class DollarTest {
 
     @Test
     public void coalesce() {
